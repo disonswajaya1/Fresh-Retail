@@ -2,7 +2,7 @@
 Building ML models to forecasting sale of Fresh Retail business with latend demand due to stock out
 
 ## Overview
-The Project is structured into several key sections:
+The Project notebook is structured into several key sections:
 1.  **Setup and Data Download**: Installs necessary libraries and downloads the `FreshRetailNet-50K` dataset from Hugging Face. **Dataset**: [Dingdong-Inc/FreshRetailNet-50K](https://huggingface.co/datasets/Dingdong-Inc/FreshRetailNet-50K)
 2.  **Data Preparation**: Cleans and transforms the raw data, creating unique series IDs and day indices.
 3.  **Shared Functions**: Defines and applies common data processing functions, including `flag_censoring` (to identify stockouts), `make_features` (for lags and rolling means), and `time_split` (to separate training and validation data).
